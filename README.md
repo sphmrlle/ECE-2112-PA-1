@@ -24,6 +24,17 @@ The operations were put together to produce the following function:
 def rotate_word (text): 
     return text [1:] + text [0]
 
+Thank you for reading!
+
+To fully see the main python program, please visit the link provided below:
+https://github.com/alijahlazaga/ECE-2112-PA-1/blob/2504a5e6b50a3accfef0baf13a26f1c2e5f7766b/Programmingasiggnment1.ipynb
+
+### **README file Version History:**
+
+August 26, 2026 - initial README content uploaded
+
+August 26, 2026 - Final README content added
+
 print (rotate_word ("python"))
 print (rotate_word ("logic"))
 print (rotate_word ("code"))
@@ -85,6 +96,17 @@ print (swap_bookends (["red", "green", "blue"]))
 print (swap_bookends ([8, 3]))
 ```
 
+Thank you for reading!
 
+For reference of the main python program for Programming Assignment 1, kindly click the link and download:
+https://github.com/sphmrlle/ECE-2112-PA-1/blob/main/PA1_Quizon.ipynb 
+
+### **README file Version History:**
+
+August 25, 2026 - Initial README ouput uploaded
+
+August 26, 2026 - Draft for README was plotted
+
+August 27, 2026 - Final README updated
 
 
