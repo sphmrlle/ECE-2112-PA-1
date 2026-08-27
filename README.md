@@ -12,11 +12,21 @@ The function used for this problem is `rotate_word()`. It accepts one argument, 
 
 The following methods are used:
 
-• `rotate_word(text)` - A user-defined function created to rotate the characters of a string.
+• `rotate_word()` - A user-defined function created to rotate the characters of a string.
 
 • `text[1:]` - This is a string slicing method. It gets all the characters starting from index 1 until the end of the string. Since python starts counting at index 0, index 1 represents the second character.
 
 • `text[0]` - A string indexing method that gets the first character of the string, which is located at index 0.
+
+The operations were put together to produce the following function:
+
+```def rotate_word (text): 
+    return text [1:] + text [0]
+
+print (rotate_word ("python"))
+print (rotate_word ("logic"))
+print (rotate_word ("code"))
+print (rotate_word ("A"))
 
 
 
