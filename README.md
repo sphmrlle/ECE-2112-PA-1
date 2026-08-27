@@ -20,13 +20,71 @@ The following methods are used:
 
 The operations were put together to produce the following function:
 
-```def rotate_word (text): 
+```python
+def rotate_word (text): 
     return text [1:] + text [0]
 
 print (rotate_word ("python"))
 print (rotate_word ("logic"))
 print (rotate_word ("code"))
 print (rotate_word ("A"))
+```
+
+# 1. Username Builder Problem\
+
+The username builder problem generates a username from a given first name and last name. The names are converted to lowercase, spaces are removed, and a period is placed between two names.
+
+The operations were put together to produce the following function:
+
+• `make_username(first_name, last_name)` - A user-defined function that receives two strings and formats them into one username.
+
+• `.lower` - A string method that changes the uppercase characters into lowercase.
+
+• `.replace(" ",")` - A string method that gets rid of spaces by replacing them with an empty string.
+
+The complete function for the problem is:
+
+```python
+def make_username (first_name, last_name):
+
+    first_name = first_name.lower()
+    first_name = first_name.replace(" ","")
+
+    last_name = last_name.lower()
+    last_name = last_name.replace(" ","")
+
+    return first_name + "." + last_name
+
+
+print (make_username ("Ada", "Lovelace"))
+print (make_username ("Alan", "Turing"))
+print (make_username ("Ana Maris", "De Leon"))
+```
+
+# 3. Bookend Swap Problem
+
+The bookend swap problem creates a function that switches the positions of the first and last elements of a list while leaving the elements in between unchanged.
+
+The following functions were put together to produce the problem:
+
+• `swap_bookends(items)` - A user-defined function that accepts a list, separates its elements into three parts, and exchanges the positions of the first and last elements.
+
+• `first, *middle, last = items` - An extended unpacking operation that divides the list into three variables. The first item is stored in first, all elements between the two ends are placed in middle, and the final item is stored in last.
+
+• `return [last] + middle + [first]` - Creates the resulting list by putting the original last element at the beginning and the original first element at the end, while retaining the middle elements in the same arrangement.
+
+The combination of the different operations gives the final function:
+
+```python
+def swap_bookends(items): 
+    first, *middle, last = items
+    return [last] + middle + [first]
+
+print (swap_bookends ([1, 2, 3, 4, 5, 6]))
+print (swap_bookends (["red", "green", "blue"]))
+print (swap_bookends ([8, 3]))
+```
+
 
 
 
