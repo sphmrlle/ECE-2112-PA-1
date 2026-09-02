@@ -27,7 +27,7 @@ def rotate_word (text):
 Thank you for reading!
 
 To fully see the main python program, please visit the link provided below:
-https://github.com/alijahlazaga/ECE-2112-PA-1/blob/2504a5e6b50a3accfef0baf13a26f1c2e5f7766b/Programmingasiggnment1.ipynb
+
 
 ### **README file Version History:**
 
