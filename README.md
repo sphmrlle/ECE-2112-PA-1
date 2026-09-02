@@ -24,17 +24,6 @@ The operations were put together to produce the following function:
 def rotate_word (text): 
     return text [1:] + text [0]
 
-Thank you for reading!
-
-To fully see the main python program, please visit the link provided below:
-
-
-### **README file Version History:**
-
-August 26, 2026 - initial README content uploaded
-
-August 26, 2026 - Final README content added
-
 print (rotate_word ("python"))
 print (rotate_word ("logic"))
 print (rotate_word ("code"))
